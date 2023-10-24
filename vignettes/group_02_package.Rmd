@@ -33,6 +33,8 @@ The input DNA sequence must not contain any characters other than the four nucle
 This function is called extract codons. The input of the function is a character string that represents a sequence. The function divides the sequence into codons with the length of 3. 
 
 ### Function 4 description
+This function is called decode_codons. The input of the function should be a vector of strings that each represent a codon, which is also the natural output of function 3.
+The function uses the codon_table to translate the codons to amino acids and then returns a string representing the amino acids.
 
 ### Function 5 description
 This function will create a plot that displays the counts of unique amino acids in a given input sequence. The input only takes one parameter, which is the input sequence. It then finds all unique amino acids from the input sequence, and creates a list thereof. Then the occurency of each unique amino acid will be counted and stored. From this a plot is made, displaying the counts of each amino acid and the counts.  
