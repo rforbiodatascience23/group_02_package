@@ -25,6 +25,9 @@ library(CentralDogma)
 
 ### Function 3 description
 
+Function 3 takes an input of a character string and divides it into substrings
+of the length 3. The output of the function is a codon of 3 characters. 
+
 ### Function 4 description
 
 ### Function 5 description
