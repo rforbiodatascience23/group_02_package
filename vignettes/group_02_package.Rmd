@@ -18,8 +18,10 @@ library(CentralDogma)
 ```
 
 ### Decription of package 
+The package includes 5 functions that creates the central dogma. From DNA to RNA (transcription) and from RNA to protein (translation). Finally the amino acid distribuition of the original DNA sequence is summarized in plot.  
 
 ### Function 1 description
+The function, named random_DNA, generates a random DNA string of length N by sampling the 4 nucleotides A, G, T and C. 
 
 ### Function 2 description
 
@@ -30,4 +32,5 @@ library(CentralDogma)
 ### Function 5 description
 
 ### Discussion of package 
+
 
