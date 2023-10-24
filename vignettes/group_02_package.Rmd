@@ -30,6 +30,9 @@ of the length 3. The output of the function is a codon of 3 characters.
 
 ### Function 4 description
 
+This function is called decode_codons. The input of the function should be a vector of strings that each represent a codon, which is also the natural output of function 3.
+The function uses the codon_table to translate the codons to amino acids and then returns a string representing the amino acids.
+
 ### Function 5 description
 
 ### Discussion of package 
