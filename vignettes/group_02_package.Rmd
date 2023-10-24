@@ -25,15 +25,10 @@ library(CentralDogma)
 
 ### Function 3 description
 
-Function 3 takes an input of a character string and divides it into substrings
-of the length 3. The output of the function is a codon of 3 characters. 
-
 ### Function 4 description
 
-This function is called decode_codons. The input of the function should be a vector of strings that each represent a codon, which is also the natural output of function 3.
-The function uses the codon_table to translate the codons to amino acids and then returns a string representing the amino acids.
-
 ### Function 5 description
+This function will create a plot that displays the counts of unique amino acids in a given input sequence. The input only takes one parameter, which is the input sequence. It then finds all unique amino acids from the input sequence, and creates a list thereof. Then the occurency of each unique amino acid will be counted and stored. From this a plot is made, displaying the counts of each amino acid and the counts.  
 
 ### Discussion of package 
 
