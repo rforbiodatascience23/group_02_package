@@ -1,0 +1,33 @@
+---
+title: "group_02_package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{group_02_package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(CentralDogma)
+```
+
+### Decription of package 
+
+### Function 1 description
+
+### Function 2 description
+
+### Function 3 description
+
+### Function 4 description
+
+### Function 5 description
+
+### Discussion of package 
+
