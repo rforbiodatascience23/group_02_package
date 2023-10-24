@@ -30,7 +30,6 @@ The input DNA sequence must not contain any characters other than the four nucle
 
 ### Function 3 description
 
-
 This function is called extract codons. The input of the function is a character string that represents a sequence. The function divides the sequence into codons with the length of 3. 
 
 ### Function 4 description
