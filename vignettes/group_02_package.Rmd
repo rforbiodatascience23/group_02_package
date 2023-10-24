@@ -25,6 +25,9 @@ The function, named random_DNA, generates a random DNA string of length N by sam
 
 ### Function 2 description
 
+This function takes as input a DNA sequence and generates its corresponding RNA sequence. It converges the nucleotide T (thymine) into U (uracil). The remaining nucleotides (A, C, and G) remain identical as these are also present in RNA sequences.
+The input DNA sequence must not contain any characters other than the four nucleotides (A, C, G, and T), as well as be free from spaces or new lines.
+
 ### Function 3 description
 
 
