@@ -23,15 +23,14 @@ library(CentralDogma)
 
 ### Function 2 description
 
-### Function 3 description
+This function takes as input a DNA sequence and generates the corresponding RNA sequence. It does this by converging the nucleotide T (thymine) into U (uracil). The remaining nucleotides, A, C, and G, will remain unchanged as these are identical in DNA and RNA.
+The input DNA sequence must not contain any other symbols than the four nucleotides (A, C, G, T), as well as be clear of spaces and new lines.
 
-Function 3 takes an input of a character string and divides it into substrings
-of the length 3. The output of the function is a codon of 3 characters. 
+### Function 3 description
 
 ### Function 4 description
 
-This function is called decode_codons. The input of the function should be a vector of strings that each represent a codon, which is also the natural output of function 3.
-The function uses the codon_table to translate the codons to amino acids and then returns a string representing the amino acids.
+Test
 
 ### Function 5 description
 
