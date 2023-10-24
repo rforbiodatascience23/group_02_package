@@ -27,6 +27,8 @@ library(CentralDogma)
 
 ### Function 4 description
 
+Test
+
 ### Function 5 description
 
 ### Discussion of package 
