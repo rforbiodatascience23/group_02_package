@@ -1,0 +1,74 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# CentralDogma
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+## Installation
+
+You can install the development version of CentralDogma from
+[GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("rforbiodatascience23/group_02_package")
+```
+
+### Decription of package
+
+The package includes 5 functions that creates the central dogma. From
+DNA to RNA (transcription) and from RNA to protein (translation).
+Finally the amino acid distribuition of the original DNA sequence is
+summarized in plot.
+
+### Function 1 description
+
+The function, named random_DNA, generates a random DNA string of length
+N by sampling the 4 nucleotides A, G, T and C.
+
+### Function 2 description
+
+This function takes as input a DNA sequence and generates its
+corresponding RNA sequence. It converges the nucleotide T (thymine) into
+U (uracil). The remaining nucleotides (A, C, and G) remain identical as
+these are also present in RNA sequences. The input DNA sequence must not
+contain any characters other than the four nucleotides (A, C, G, and T),
+as well as be free from spaces or new lines.
+
+### Function 3 description
+
+This function is called extract codons. The input of the function is a
+character string that represents a sequence. The function divides the
+sequence into codons with the length of 3.
+
+### Function 4 description
+
+This function is called decode_codons. The input of the function should
+be a vector of strings that each represent a codon, which is also the
+natural output of function 3. The function uses the codon_table to
+translate the codons to amino acids and then returns a string
+representing the amino acids.
+
+### Function 5 description
+
+This function will create a plot that displays the counts of unique
+amino acids in a given input sequence. The input only takes one
+parameter, which is the input sequence. It then finds all unique amino
+acids from the input sequence, and creates a list thereof. Then the
+occurrence of each amino acid will be counted and stored. From this, a
+plot is made, displaying each found amino acid sequence and the
+corresponding counts.
+
+### Discussion of package
+
+The package can be used to quickly generate an overview of the amino
+acid distribution from a DNA string. The information about the frequency
+of amino acids can be used in the process of generating sequence logos.
+Other functionalities that could contribute to the expansion of this
+package include further plotting functions elaborating on the nucleotide
+frequencies, such as the GC content, which is a useful measure in
+microbiology. As well as comparative abilities by inputting several DNA
+sequences, analyzing similarities and differences, elaborating on
+conservative regions and mutations such as SNPs.
